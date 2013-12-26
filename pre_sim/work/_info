@@ -1,0 +1,106 @@
+m255
+K3
+13
+cModel Technology
+Z0 dI:\altera\13.0sp1\modelsim_ase\win32aloem
+vRB1
+!i10b 1
+!s100 ]LBI=VSeF9HA=_O67mB;n2
+I[EMHMiiBUGGfF6oJG;Xf;3
+Z1 Ve_lz9lCUmXCe;O<nXMnm03
+Z2 dC:\Users\P\Documents\GitHub\Digital_IC_Design_HW4\pre_sim
+Z3 w1387011247
+FRB1.v
+Z4 8C:/Users/P/Documents/GitHub/Digital_IC_Design_HW4/pre_sim/tb.v
+Z5 FC:/Users/P/Documents/GitHub/Digital_IC_Design_HW4/pre_sim/tb.v
+L0 2
+Z6 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z7 !s108 1388056453.270000
+Z8 !s107 RB2.v|RB1.v|C:/Users/P/Documents/GitHub/Digital_IC_Design_HW4/pre_sim/tb.v|
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/P/Documents/GitHub/Digital_IC_Design_HW4/pre_sim/tb.v|
+!s101 -O0
+Z10 o-work work -O0
+Z11 n@r@b1
+vRB2
+!i10b 1
+!s100 TVeBDeLS:7CHQnb3NKie32
+IE`z[O1KhklbH4B][94]Qz2
+Z12 VI67Q4=l7GhLWQP85dWf=n1
+R2
+R3
+FRB2.v
+R4
+R5
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+R10
+Z13 n@r@b2
+vS1
+Z14 IRYDi]zX81[6MVE=Ri:TAU1
+Z15 V^5g_5GbTRWB0z<YR:Clea0
+R2
+Z16 w1388056449
+Z17 8C:/Users/P/Documents/GitHub/Digital_IC_Design_HW4/pre_sim/S1.v
+Z18 FC:/Users/P/Documents/GitHub/Digital_IC_Design_HW4/pre_sim/S1.v
+L0 1
+R6
+r1
+31
+Z19 !s90 -reportprogress|300|-work|work|C:/Users/P/Documents/GitHub/Digital_IC_Design_HW4/pre_sim/S1.v|
+R10
+n@s1
+Z20 !s100 dPFOnSYdl[UI[JWR2FIL21
+Z21 !s108 1388056452.661000
+Z22 !s107 C:/Users/P/Documents/GitHub/Digital_IC_Design_HW4/pre_sim/S1.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vS2
+Z23 !s100 B3HRYoDg]i?e<LUZQF6=:3
+Z24 I5d9S7_B[jf2F3AjBW3?UZ1
+Z25 V7^jg[?KoW;lg1Ek`IZBD73
+R2
+Z26 w1387011166
+Z27 8C:/Users/P/Documents/GitHub/Digital_IC_Design_HW4/pre_sim/S2.v
+Z28 FC:/Users/P/Documents/GitHub/Digital_IC_Design_HW4/pre_sim/S2.v
+L0 1
+R6
+r1
+31
+Z29 !s90 -reportprogress|300|-work|work|C:/Users/P/Documents/GitHub/Digital_IC_Design_HW4/pre_sim/S2.v|
+R10
+n@s2
+!i10b 1
+!s85 0
+Z30 !s108 1388056453.067000
+Z31 !s107 C:/Users/P/Documents/GitHub/Digital_IC_Design_HW4/pre_sim/S2.v|
+!s101 -O0
+vtb
+!i10b 1
+Z32 !s100 IoE<MNoG2D[UcXWj4MPa02
+Z33 IM:^BeLWQ9BJQLe7LBJ[U[2
+Z34 V76:hBhOSho:D6A<_@zIH00
+R2
+R3
+R4
+R5
+L0 20
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+R10
