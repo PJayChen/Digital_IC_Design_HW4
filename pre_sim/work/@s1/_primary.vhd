@@ -7,8 +7,9 @@ entity S1 is
         S0_RESET        : vl_logic_vector(0 to 2) := (Hi0, Hi0, Hi0);
         S1_SEND_ADDR_TO_RB1: vl_logic_vector(0 to 2) := (Hi0, Hi0, Hi1);
         S2_READ_FROM_RB1: vl_logic_vector(0 to 2) := (Hi0, Hi1, Hi0);
-        S3_START_TX     : vl_logic_vector(0 to 2) := (Hi0, Hi1, Hi1);
-        S4_FINISH_TX    : vl_logic_vector(0 to 2) := (Hi1, Hi0, Hi0)
+        S3_TX_START     : vl_logic_vector(0 to 2) := (Hi0, Hi1, Hi1);
+        S4_TX_DATA      : vl_logic_vector(0 to 2) := (Hi1, Hi0, Hi0);
+        S5_FINISH_TX    : vl_logic_vector(0 to 2) := (Hi1, Hi0, Hi1)
     );
     port(
         clk             : in     vl_logic;
@@ -26,6 +27,7 @@ entity S1 is
     attribute mti_svvh_generic_type of S0_RESET : constant is 1;
     attribute mti_svvh_generic_type of S1_SEND_ADDR_TO_RB1 : constant is 1;
     attribute mti_svvh_generic_type of S2_READ_FROM_RB1 : constant is 1;
-    attribute mti_svvh_generic_type of S3_START_TX : constant is 1;
-    attribute mti_svvh_generic_type of S4_FINISH_TX : constant is 1;
+    attribute mti_svvh_generic_type of S3_TX_START : constant is 1;
+    attribute mti_svvh_generic_type of S4_TX_DATA : constant is 1;
+    attribute mti_svvh_generic_type of S5_FINISH_TX : constant is 1;
 end S1;
