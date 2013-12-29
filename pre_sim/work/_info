@@ -18,7 +18,7 @@ Z6 OV;L;10.1d;51
 r1
 !s85 0
 31
-Z7 !s108 1388150051.650000
+Z7 !s108 1388317282.887000
 Z8 !s107 RB2.v|RB1.v|C:/Users/P/Documents/GitHub/Digital_IC_Design_HW4/pre_sim/tb.v|
 Z9 !s90 -reportprogress|300|-work|work|C:/Users/P/Documents/GitHub/Digital_IC_Design_HW4/pre_sim/tb.v|
 !s101 -O0
@@ -46,43 +46,43 @@ R9
 R10
 Z13 n@r@b2
 vS1
-Z14 I0jM1N9?C?nYGagIQUPX583
-Z15 VWT7DAXHZ_BmB]foM0X]5V3
+Z14 !s100 =M?SjU3=^lPFi48fEX]d[0
+Z15 I0jM1N9?C?nYGagIQUPX583
+Z16 VWT7DAXHZ_BmB]foM0X]5V3
 R2
-Z16 w1388150047
-Z17 8C:/Users/P/Documents/GitHub/Digital_IC_Design_HW4/pre_sim/S1.v
-Z18 FC:/Users/P/Documents/GitHub/Digital_IC_Design_HW4/pre_sim/S1.v
+Z17 w1388150047
+Z18 8C:/Users/P/Documents/GitHub/Digital_IC_Design_HW4/pre_sim/S1.v
+Z19 FC:/Users/P/Documents/GitHub/Digital_IC_Design_HW4/pre_sim/S1.v
 L0 1
 R6
 r1
 31
-Z19 !s90 -reportprogress|300|-work|work|C:/Users/P/Documents/GitHub/Digital_IC_Design_HW4/pre_sim/S1.v|
+Z20 !s90 -reportprogress|300|-work|work|C:/Users/P/Documents/GitHub/Digital_IC_Design_HW4/pre_sim/S1.v|
 R10
 n@s1
-Z20 !s100 =M?SjU3=^lPFi48fEX]d[0
-Z21 !s108 1388150051.256000
+Z21 !s108 1388317282.424000
 Z22 !s107 C:/Users/P/Documents/GitHub/Digital_IC_Design_HW4/pre_sim/S1.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vS2
-Z23 !s100 B3HRYoDg]i?e<LUZQF6=:3
-Z24 I5d9S7_B[jf2F3AjBW3?UZ1
-Z25 V7^jg[?KoW;lg1Ek`IZBD73
+Z23 I_dgT86CejURP]mUYE]X>G0
+Z24 Vi:SF`AS=b:@NY2X2NEa6e2
 R2
-Z26 w1387011166
-Z27 8C:/Users/P/Documents/GitHub/Digital_IC_Design_HW4/pre_sim/S2.v
-Z28 FC:/Users/P/Documents/GitHub/Digital_IC_Design_HW4/pre_sim/S2.v
+Z25 w1388317276
+Z26 8C:/Users/P/Documents/GitHub/Digital_IC_Design_HW4/pre_sim/S2.v
+Z27 FC:/Users/P/Documents/GitHub/Digital_IC_Design_HW4/pre_sim/S2.v
 L0 1
 R6
 r1
 31
-Z29 !s90 -reportprogress|300|-work|work|C:/Users/P/Documents/GitHub/Digital_IC_Design_HW4/pre_sim/S2.v|
+Z28 !s90 -reportprogress|300|-work|work|C:/Users/P/Documents/GitHub/Digital_IC_Design_HW4/pre_sim/S2.v|
 R10
 n@s2
 !i10b 1
+Z29 !s100 VD8=`bA=f3H6Fab8`F`g02
 !s85 0
-Z30 !s108 1388150051.418000
+Z30 !s108 1388317282.658000
 Z31 !s107 C:/Users/P/Documents/GitHub/Digital_IC_Design_HW4/pre_sim/S2.v|
 !s101 -O0
 vtb
