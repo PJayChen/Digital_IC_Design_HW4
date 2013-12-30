@@ -12,6 +12,13 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	RB1
 
+} {} {}} C:/Users/P/Documents/GitHub/Digital_IC_Design_HW4/pre_sim/RB2.v {1 {vlog -work work C:/Users/P/Documents/GitHub/Digital_IC_Design_HW4/pre_sim/RB2.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module RB2
+
+Top level modules:
+	RB2
+
 } {} {}} C:/Users/P/Documents/GitHub/Digital_IC_Design_HW4/pre_sim/tb.v {1 {vlog -work work C:/Users/P/Documents/GitHub/Digital_IC_Design_HW4/pre_sim/tb.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module RB1
@@ -20,12 +27,5 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 
 Top level modules:
 	tb
-
-} {} {}} C:/Users/P/Documents/GitHub/Digital_IC_Design_HW4/pre_sim/RB2.v {1 {vlog -work work C:/Users/P/Documents/GitHub/Digital_IC_Design_HW4/pre_sim/RB2.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module RB2
-
-Top level modules:
-	RB2
 
 } {} {}}

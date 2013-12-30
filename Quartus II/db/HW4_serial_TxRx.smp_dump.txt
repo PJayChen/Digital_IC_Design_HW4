@@ -1,0 +1,9 @@
+
+State Machine - |S1|curr_state
+Name curr_state.S5_FINISH_TX curr_state.S4_TX_DATA curr_state.S3_TX_START curr_state.S2_READ_FROM_RB1 curr_state.S1_SEND_ADDR_TO_RB1 curr_state.S0_RESET 
+curr_state.S0_RESET 0 0 0 0 0 0 
+curr_state.S1_SEND_ADDR_TO_RB1 0 0 0 0 1 1 
+curr_state.S2_READ_FROM_RB1 0 0 0 1 0 1 
+curr_state.S3_TX_START 0 0 1 0 0 1 
+curr_state.S4_TX_DATA 0 1 0 0 0 1 
+curr_state.S5_FINISH_TX 1 0 0 0 0 1 

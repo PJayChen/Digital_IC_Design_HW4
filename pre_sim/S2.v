@@ -20,9 +20,9 @@ reg [2:0] data_addr;
 reg [3:0] addr;
 reg writeRB2;
 
-always@(posedge clk or negedge rst)begin
-	if(~rst) curr_state <= next_state;
-	else curr_state <= S0_RESET;
+always@(posedge clk or posedge rst)begin
+	if(rst) curr_state <= S0_RESET;
+	else curr_state <= next_state;
 end
 
 always@(curr_state or sen or rst or data_cnt or shift_cnt or addr)begin
@@ -75,21 +75,27 @@ always@(curr_state or sen)begin
 			begin
 				fill = 1'd0;
 				writeRB2 = 1'd0;
+				S2_done = 1'd0;
 			end
 		S2_RX_DATA:
 			begin
 				if(sen) fill = 1'd1;
 				else fill = 1'd0;
+				
+				writeRB2 = 1'd0;
+				S2_done = 1'd0;
 			end
 		S3_RX_WAIT:
 			begin
 				fill = 1'd1;
 				writeRB2 = 1'd0;
+				S2_done = 1'd0;
 			end
 		S4_STORE_DATA_TO_RB2: 
 			begin
 				fill = 1'd0;
 				writeRB2 = 1'd1;
+				S2_done = 1'd0;
 			end
 		S5_FINISH:
 			begin
@@ -98,13 +104,15 @@ always@(curr_state or sen)begin
 			end
 		default:
 			begin
+				writeRB2 = 1'd0;
 				fill = 1'd0;
+				S2_done = 1'd0;
 			end
 	endcase
 end
 
 /* Rx Data */
-always@(posedge clk or negedge rst)begin
+always@(posedge clk or posedge rst)begin
 	if(rst)begin
 		data_cnt = 4'd0;
 		shift_cnt = 5'd0;
@@ -128,9 +136,9 @@ always@(posedge clk or negedge rst)begin
 	end
 end
 
-/* Read Data From RB1  */
+/* Write Data into RB2  */
 
-always@(posedge clk or negedge rst)begin
+always@(posedge clk or posedge rst)begin
 	if(rst)begin
 		RB2_RW = 1'd1;
 		addr = 4'd0;
